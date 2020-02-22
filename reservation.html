@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
 </head>
 <body>
+    <div class="container">
     <div class="jumbotron">
         <h1 class="display-4"><i class="fab fa-gripfire"></i>Hot Restaurant</h1>
         <hr class="my-4">
@@ -14,8 +16,34 @@
         <a href="table.html" class="btn btn-primary tablebtn" tabindex="-1" role="button"><i class="far fa-list-alt"></i>View Tables</a>
         <a href="mainpage.html" class="btn btn-secondary homebtn" tabindex="-1" role="button" ><i class="fas fa-igloo"></i></a>
       </div>
+      </div>
     <div class= input>
-        
+        <div class="container">
+            <div class="card mb-4">
+                <div class="card-header">
+                  <h3>Reservation Information</h3>
+                </div>
+                <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="name" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                      <label for="phoneNumber">Phone Number</label>
+                      <input type="number" class="form-control" id="phoneNumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                      <div class="form-group">
+                        <label for="uniqueID">Unique ID</label>
+                        <input type="ID" class="form-control" id="uniqueID">
+                      </div>
+                      <button type="submitbtn" class="btn btn-primary">Submit</button>
+                  </form>
+        </div>
+    
     </div>
 </body>
 <footer>
